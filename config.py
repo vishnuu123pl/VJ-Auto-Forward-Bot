@@ -1,7 +1,7 @@
 from os import getenv
 
 class Config(object):
-      API_HASH = getenv("API_HASH", "8cde2475d6b0cb1162b89ebbac71a95d")
+      API_HASH = getenv("API_HASH", "6822080677:AAFiEOi7k8GLcKs-IcgyhLvWFD0IyLUCXSU")
       API_ID = int(getenv("API_ID", "13305226"))
       AS_COPY = True if getenv("AS_COPY", True) == "`{file_name}`" else True
       BOT_TOKEN = getenv("BOT_TOKEN", "")
